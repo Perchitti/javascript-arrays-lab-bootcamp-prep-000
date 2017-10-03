@@ -29,3 +29,11 @@ function appendKitten(name){
 function prependKitten(name){
   return [name, ...kittens]
 }
+
+function removeLastKitten(array){
+  kittens.slice(3)
+}
+
+function removeFirstKitten(array){
+  kittens.shift()
+}
